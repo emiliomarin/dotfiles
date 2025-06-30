@@ -35,7 +35,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
-    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontFamily": "MesloLGS Nerd Font",
     "editor.fontSize": 12,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
@@ -107,7 +107,7 @@
     "workbench.tree.indent": 14,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorTheme": "Solarized Dark",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.explorerKind": "external",
     "terminal.integrated.defaultProfile.osx": "zsh"
