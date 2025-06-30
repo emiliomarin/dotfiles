@@ -1,0 +1,110 @@
+{
+    "[dockercompose]": {
+        "editor.autoIndent": "advanced",
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[proto3]": {
+        "editor.defaultFormatter": "bufbuild.vscode-buf"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools",
+        "editor.formatOnSave": false
+    },
+    "[toml]": {
+        "editor.formatOnSave": false
+    },
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "SauceCodePro Nerd Font",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.guides.bracketPairs": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        140
+    ],
+    "errorLens.excludeBySource": [
+        "cSpell"
+    ],
+    "explorer.fileNesting.enabled": true,
+    "files.associations": {
+        "*.yml": "dockercompose"
+    },
+    "files.insertFinalNewline": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.mergeEditor": true,
+    "githubPullRequests.pullBranch": "never",
+    "go.alternateTools": {
+        "customFormatter": "golangci-lint-v2"
+    },
+    "go.coverOnSingleTest": true,
+    "go.coverOnSingleTestFile": true,
+    "go.editorContextMenuCommands": {
+        "fillStruct": true
+    },
+    "go.formatFlags": [
+        "fmt",
+        "--stdin"
+    ],
+    "go.formatTool": "custom",
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.parameterNames": true,
+    "go.lintFlags": [
+        "--path-mode=abs",
+        "--config=${workspaceFolder}/.golangci.yaml",
+        "--fast-only"
+    ],
+    "go.lintOnSave": "file",
+    "go.lintTool": "golangci-lint-v2",
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "go.testTimeout": "10s",
+    "gopls": {
+        "formatting.gofumpt": true,
+        "ui.navigation.importShortcut": "Definition",
+        "ui.semanticTokens": true,
+        "verboseOutput": true
+    },
+    "makefile.configureOnOpen": false,
+    "redhat.telemetry.enabled": false,
+    "terminal.external.osxExec": "Warp.app",
+    "window.commandCenter": false,
+    "workbench.colorCustomizations": {
+        "[Quiet Light]": {
+            "gitDecoration.modifiedResourceForeground": "#0404ff",
+            "gitDecoration.conflictingResourceForeground": "#cdff04",
+            "list.errorForeground": "#f00505",
+            "list.warningForeground": "#01b5b2"
+        }
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 14,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorTheme": "Solarized Dark"
+}

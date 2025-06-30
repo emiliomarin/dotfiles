@@ -1,0 +1,4 @@
+# Global skin is specified
+k9s:
+  ui:
+    skin: skin

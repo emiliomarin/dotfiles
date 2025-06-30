@@ -1,0 +1,45 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+      use_glob: true
+
+- clean: ["~"]
+
+- shell:
+    - command: git submodule update --init --recursive
+      description:  Installing submodules
+      stdout: true
+      stderr: true
+
+    - command: which brew || bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      description: Installing homebrew
+      stdout: true
+      stderr: true
+
+    - command: brew bundle --file brew/Brewfile
+      description: Installing brew packages
+      stdout: true
+      stderr: true
+
+    - command: |
+        while IFS= read -r line; do
+          code --install-extension $line
+        done < editors/vs-code/extensions
+      description: Install VScode extensions
+      stdout: true
+      stderr: true
+
+- link:
+    ~/.gitconfig: git/.gitconfig
+    ~/.gitignore_global: git/.gitignore_global
+    ~/.gitattributes: git/.gitattributes
+    ~/.zshrc: zsh/.zshrc
+    ~/.zsh: zsh
+    ~/Library/Application\ Support/k9s: k9s
+    "~/Library/Application Support/Code/User/settings.json": editors/vs-code/settings.json
+    "~/Library/Application Support/Code/User/keybindings.json": editors/vs-code/keybindings.json
+
+- create:
+    - ~/Projects
