@@ -35,8 +35,8 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
-    "editor.fontFamily": "SauceCodePro Nerd Font",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 12,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.guides.bracketPairs": true,
@@ -106,5 +106,9 @@
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 14,
     "workbench.tree.renderIndentGuides": "always",
-    "workbench.colorTheme": "Solarized Dark"
+    "workbench.colorTheme": "Solarized Dark",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 12,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.defaultProfile.osx": "zsh"
 }
