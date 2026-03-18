@@ -39,6 +39,9 @@
     ~/.zshrc: zsh/.zshrc
     ~/.zsh: zsh
     ~/Library/Application\ Support/k9s: k9s
+    ~/.cursor/rules: cursor/rules
+    "~/Library/Application Support/Cursor/User/settings.json": editors/vs-code/settings.json
+    "~/Library/Application Support/Cursor/User/keybindings.json": editors/vs-code/keybindings.json
     "~/Library/Application Support/Code/User/settings.json": editors/vs-code/settings.json
     "~/Library/Application Support/Code/User/keybindings.json": editors/vs-code/keybindings.json
 

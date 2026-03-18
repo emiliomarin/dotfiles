@@ -1,0 +1,130 @@
+{
+  "env": {
+    "PATH": "/Users/emiliomarin/.bun/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/emiliomarin/go/bin:/Users/emiliomarin/.local/bin",
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "xyz"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(npx --version:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version)",
+      "Bash(ls:*)",
+      "mcp__serena__list_dir",
+      "mcp__serena__activate_project",
+      "mcp__serena__read_memory",
+      "Bash(npx mocha:*)",
+      "Bash(npx eslint:*)",
+      "WebFetch(domain:swordhealth.atlassian.net)",
+      "mcp__serena__find_symbol",
+      "mcp__serena__search_for_pattern",
+      "Bash(gh pr create:*)",
+      "Bash(make test:*)",
+      "mcp__serena__find_file",
+      "Bash(grep:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
+      "Bash(find:*)",
+      "mcp__claude_ai_Atlassian__getJiraIssue",
+      "Bash(gh issue view:*)",
+      "Bash(git log:*)",
+      "Bash(git checkout:*)",
+      "Bash(node -e:*)",
+      "mcp__serena__list_memories",
+      "mcp__serena__*",
+      "mcp__serena__get_symbols_overview",
+      "Bash(nvm use:*)",
+      "Bash(make lint:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "mcp__claude_ai_Slack__slack_send_message",
+      "Bash(gh api repos/SWORDHealth/api-member/pulls/1789/files)",
+      "mcp__claude_ai_Atlassian__getJiraIssueRemoteIssueLinks",
+      "mcp__github__search_pull_requests",
+      "Bash(make test-integration:*)",
+      "Bash(node:*)",
+      "Bash(make test-unit:*)",
+      "Bash(gh pr:*)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(go get:*)",
+      "Bash(go mod tidy:*)",
+      "Bash(go build:*)",
+      "Bash(go mod vendor:*)"
+    ]
+  },
+  "model": "sonnet",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/emiliomarin/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/emiliomarin/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/emiliomarin/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/emiliomarin/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/emiliomarin/.claude/hooks/peon-ping/peon.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true
+  },
+  "voiceEnabled": true
+}
