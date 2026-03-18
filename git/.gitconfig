@@ -21,7 +21,7 @@
 	ui = true
 
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/emiliomarin/.gitignore_global
 	attributesfile = ~/.gitattributes
 	editor = vim
 	autocrlf = input
@@ -85,7 +85,7 @@
 [tag]
 	# gpgsign = true
 [gpg]
-	program = gpg
+	program = /opt/homebrew/bin/gpg
 
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/

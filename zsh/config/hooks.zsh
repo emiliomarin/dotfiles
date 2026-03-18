@@ -1,3 +1,5 @@
+autoload -Uz add-zsh-hook
+
 # place default node version under $HOME/.node-version
 load-fnmrc() {
   if [[ -f .nvmrc && -r .nvmrc ]] || [[ -f .node-version && -r .node-version ]]; then

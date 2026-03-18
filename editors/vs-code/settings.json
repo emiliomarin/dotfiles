@@ -110,5 +110,6 @@
     "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
     "terminal.integrated.fontSize": 12,
     "terminal.explorerKind": "external",
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "docker.extension.enableComposeLanguageServer": false
 }
